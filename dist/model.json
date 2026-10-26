@@ -1,0 +1,37 @@
+{
+  "version": "synthetic-logreg-v1",
+  "seed": 1119,
+  "features": [
+    "night_mean",
+    "std",
+    "longest_run_fraction"
+  ],
+  "mean": [
+    7.637459374999993,
+    13.686983366281156,
+    0.5117057291666672
+  ],
+  "scale": [
+    5.61680954415123,
+    3.796940630760372,
+    0.44707781624448906
+  ],
+  "weights": [
+    0.5644076968653017,
+    -0.39097050116643617,
+    5.018830373023714
+  ],
+  "bias": 1.245682738443646,
+  "threshold": 0.5,
+  "metrics": {
+    "true_positive": 95,
+    "true_negative": 105,
+    "false_positive": 0,
+    "false_negative": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "train_households": 800,
+    "test_households": 200
+  },
+  "disclaimer": "Synthetic-only evaluation. Not validated on real homes."
+}
